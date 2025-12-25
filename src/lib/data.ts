@@ -32,7 +32,7 @@ export const siteConfig = {
       title: "E-commerce Platform",
       description:
         "A resilient marketplace with zero-fail checkout and automated workflows using Inngest.",
-      image: "/projects/Bukky-store.png",
+      image: "/projects/Bukky-Store.png",
       tags: ["Next.js 15", "TypeScript", "Inngest", "Clerk"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/example",
@@ -42,7 +42,7 @@ export const siteConfig = {
       title: "Flight Booking App",
       description:
         "Multi-step booking flow with dynamic state management and form validation.",
-      image: "/projects/Bukky-store.png",
+      image: "/projects/Bukky-Store.png",
       tags: ["TypeScript", "React", "React Hook Form"],
       githubUrl: "https://github.com/example",
       impact: "98% form completion rate",
@@ -51,7 +51,7 @@ export const siteConfig = {
       title: "Event Management Dashboard",
       description:
         "Real-time event analytics with role-based access control and data caching.",
-      image:"/projects/Bukky-store.png",
+      image:"/projects/Bukky-Store.png",
       tags: ["Next.js", "TypeScript", "Tailwind"],
       liveUrl: "https://example.com",
       impact: "Increased load speed by 40%",
