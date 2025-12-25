@@ -1,8 +1,8 @@
 export const siteConfig = {
     name: "Oluwadamisi Samuel",
-    title: "Frontend Developer & Technical Writer",
+    title: "Software Engineer & Technical Writer",
     description:
-      "I build fast, accessible web apps and write about them. Specializing in Next.js, TypeScript, and modern web development.",
+      "I build web applications and write about them. With 3+ years shipping Next.js with TypeScript in production, AI tools and best practices, I create technical content that turns curious developers into active users. My tutorials on freeCodeCamp and Dev.to don't just explain—they convert.",
     email: "oluwadamisi.samuel@gmail.com",
     // Your external blog profiles
     blogUrl: "https://dev.to/yourhandle",
@@ -33,7 +33,7 @@ export const siteConfig = {
       description:
         "A resilient marketplace with zero-fail checkout and automated workflows using Inngest.",
       image: "/projects/Bukky-Store.png",
-      tags: ["Next.js 15", "TypeScript", "Inngest", "Clerk"],
+      tags: ["Next.js 15", "Inngest", "Clerk"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/example",
       impact: "Reduced checkout abandonment by 35%",
@@ -42,7 +42,7 @@ export const siteConfig = {
       title: "Flight Booking App",
       description:
         "Multi-step booking flow with dynamic state management and form validation.",
-      image: "/projects/Bukky-Store.png",
+      image: "/projects/Marv-Air.png",
       tags: ["TypeScript", "React", "React Hook Form"],
       githubUrl: "https://github.com/example",
       impact: "98% form completion rate",
