@@ -47,7 +47,7 @@ export function Header() {
             href="/"
             className="group flex items-center font-mono text-xl font-bold text-ink"
           >
-            <Image src='/logo-removebg-preview.png' alt="my-logo" width={120} height={32} className="w-auto h-8 object-contain" />
+            <Image src='/logo.png' alt="my-logo" width={120} height={32} className="w-auto h-8 object-contain" />
           </Link>
 
           {/* Desktop Nav */}
