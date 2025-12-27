@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Github, Twitter, Linkedin } from "lucide-react";
 import { Container } from "./container";
 import { siteConfig, socialLinks } from "@/lib/data";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -9,10 +10,11 @@ export function Footer() {
       <Container>
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           {/* Logo */}
-          <Link href="/" className="font-mono text-lg font-bold text-ink">
-            <span className="text-sage">{"{ "}</span>
-            YN
-            <span className="text-sage">{" }"}</span>
+          <Link
+            href="/"
+            className="group flex items-center font-mono text-xl font-bold text-ink"
+          >
+            <Image src='/logo.png' alt="my-logo" width={120} height={32} className="w-auto h-8 object-contain" />
           </Link>
 
           {/* Social Links */}

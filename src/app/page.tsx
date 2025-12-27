@@ -90,8 +90,8 @@ export default function HomePage() {
               Let&apos;s Work Together
             </h2>
             <p className="mx-auto mt-4 max-w-md text-lg text-graphite">
-              Have a project in mind or just want to chat? I&apos;d love to hear
-              from you.
+              Have a project in mind? Looking for technical content? Or just 
+              want to chat about React and Next.js?
             </p>
             <div className="mt-8">
               <Button size="lg" >

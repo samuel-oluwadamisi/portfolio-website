@@ -81,6 +81,10 @@ export default function WritingPage() {
           </div>
         </Container>
       </Section>
+
+
+
+      <p className="text-center text-sage mb-3">To see more articles visit my blogs</p>
     </>
   );
 }
