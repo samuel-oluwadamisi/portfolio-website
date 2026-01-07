@@ -36,7 +36,7 @@ export function ProjectCard({ project, index = 0 }: ProjectCardProps) {
 
         <h3 className="mb-2 text-xl font-semibold text-ink">{project.title}</h3>
 
-        <p className="mb-4 text-graphite">{project.description}</p>
+        <p className="mb-4 text-graphite text-sm">{project.description}</p>
 
         {project.impact && (
           <p className="mb-4 text-sm font-medium text-sage">✦ {project.impact}</p>
