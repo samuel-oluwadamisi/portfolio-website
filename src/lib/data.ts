@@ -29,6 +29,16 @@ export const siteConfig = {
   
   export const projects: Project[] = [
     {
+      title: "KOKO Walkers",
+      description:
+        "A premium custom-footwear e-commerce prototype with instant SSR hydration, buttery-smooth App Router transitions, and a full CRUD admin dashboard powered by MongoDB.",
+      image: "/projects/koko-walkers.png",
+      tags: ["Next.js 15", "Tailwind CSS v4", "MongoDB", "TanStack React Query v5", "Framer Motion"],
+      liveUrl: "https://koko-samuel.vercel.app/",
+      githubUrl: "https://github.com/samuel-oluwadamisi/shoe-store",
+      impact: "Delivered zero-flicker SSR-to-client hydration and optimized navigation with a 400ms transition cap for premium perceived performance.",
+    },
+    {
       title: "E-commerce Platform",
       description:
         "A resilient marketplace with zero-fail checkout and automated workflows using Inngest.",
