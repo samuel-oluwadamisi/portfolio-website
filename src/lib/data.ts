@@ -2,7 +2,7 @@ export const siteConfig = {
     name: "Oluwadamisi Samuel",
     title: "Software Engineer & Technical Writer",
     description:
-      "I build web applications and write about them. With 3+ years shipping Next.js with TypeScript in production, AI tools and best practices, I create technical content that turns curious developers into active users. My tutorials on freeCodeCamp and Dev.to don't just explain—they convert.",
+      "I build web applications and write about them. With 4+ years shipping Next.js with TypeScript in production, AI tools and best practices, I create technical content that turns curious developers into active users. My tutorials on freeCodeCamp and Dev.to don't just explain—they convert.",
     email: "oluwadamisi.samuel@gmail.com",
     // Your external blog profiles
     blogUrl: "https://dev.to/oluwadamisisamuel1",
@@ -28,6 +28,14 @@ export const siteConfig = {
   }
   
   export const projects: Project[] = [
+     {
+      title: "ShanksTix",
+      description:
+"A full-featured event management platform with multi-role dashboards, real-time ticket validation, seat mapping, internal wallet and organiser campaign tools — built as lead frontend engineer from architecture to launch.",
+      image:"/projects/ShanksTix.png",
+      tags: ["Next.js", "TypeScript", "React Query"],
+      liveUrl: "https://shankstix.com/",
+    },
     {
       title: "KOKO Walkers",
       description:
@@ -57,16 +65,6 @@ export const siteConfig = {
       liveUrl: "https://bukky-s-atelier.vercel.app/",
       githubUrl: "https://github.com/samuel-oluwadamisi",
       impact: "98% form completion rate",
-    },
-    {
-      title: "Event Management Dashboard--Coming Soon",
-      description:
-        "Real-time event analytics with role-based access control and data caching.",
-      image:"/projects/Shanks-Media.png",
-      tags: ["Next.js", "TypeScript", "Tailwind"],
-      liveUrl: "https://shanksmediaandsoftwarecompany.com/",
-      githubUrl: "https://github.com/samuel-oluwadamisi",
-      impact: "Increased load speed by 40%",
     },
     {
       title: "GlobeHop",
