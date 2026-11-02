@@ -28,6 +28,25 @@ export const siteConfig = {
   }
   
   export const projects: Project[] = [
+        {
+      title: "ATELA",
+      description:
+        "Atela is order management software built for fashion houses and garment factories. It replaces notebooks, WhatsApp threads, and guesswork with one place to create orders, assign staff, track every stage from cutting to delivery, and keep inventory accurate.",
+      image: "/projects/atela.png",
+      tags: ["Next.js 15", "Inngest", "Clerk"],
+      liveUrl: "https://atela-demo.vercel.app/",
+    },
+
+        {
+      title: "CompStack",
+      description:
+        "Compstack runs your employee records, scheduling, expense workflow and payroll cycle in one operational workspace, with AI that keeps SMBs and enterprises aligned with local regulations.",
+      image: "/projects/compstack.png",
+      tags: ["Next.js 15", "Inngest", "Clerk"],
+      liveUrl: "https://trycompstack.com/",
+    },
+
+
      {
       title: "ShanksTix",
       description:

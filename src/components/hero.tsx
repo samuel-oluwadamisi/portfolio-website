@@ -18,9 +18,9 @@ export function Hero() {
       </div>
 
       <Container className="relative">
-      <div className="flex flex-col-reverse gap-12 lg:flex-row lg:items-center">
+      <div className="flex flex-col-reverse gap-12 lg:flex-row lg:items-center lg:gap-16">
           {/* Left: Text Content */}
-          <div>
+          <div className="lg:flex-1">
             {/* Greeting */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -39,7 +39,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="mt-6 text-4xl font-bold tracking-tight text-ink md:text-6xl lg:text-7xl"
+              className="mt-6 text-3xl font-bold tracking-tight text-ink md:text-5xl lg:text-6xl"
             >
               {siteConfig.title}
             </motion.h1>
@@ -49,9 +49,9 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="mt-6 text-base leading-relaxed text-graphite md:text-xl md:max-w-[700px]"
+              className="mt-4 text-base leading-relaxed text-graphite md:text-lg md:max-w-[700px]"
             >
-              I build web applications and write about them. With 3+ years shipping Next.js with TypeScript, I create technical content that turns curious developers into active users. My tutorials don't just explain, they <span className="font-semibold text-sage">convert</span>.
+              I build web applications and write about them. With 3+ years shipping Next.js with TypeScript, I create technical content that turns curious developers into active users. My tutorials don&apos;t just explain, they <span className="font-semibold text-sage">convert</span>.
             </motion.p>
 
             {/* CTAs */}
@@ -77,37 +77,24 @@ export function Hero() {
             </motion.div>
           </div>
 
-          {/* Right: Animated Logo */}
+          {/* Right: Image */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="flex items-center justify-center lg:justify-end"
+            className="flex w-full items-center justify-center lg:w-[40%] lg:justify-end"
           >
-            {/* 3D Flip Container */}
-            <motion.div
-              animate={{ rotateY: 360 }}
-              transition={{
-                duration: 2.5,
-                repeat: Infinity,
-                ease: [0.34, 1.56, 0.64, 1],  // Spring bounce
-              }}
-              whileHover={{
-                rotateY: 0,        // Reset to front-facing
-                scale: 1.05,       // Slight zoom
-              }}
-              style={{ transformStyle: "preserve-3d" }}
-            >
-               <div className="absolute inset-0 -z-10 animate-pulse rounded-full bg-sage/20 blur-3xl" />
+            <div className="relative aspect-square w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-none">
+              <div className="absolute inset-0 -z-10 animate-pulse rounded-full bg-sage/20 blur-3xl" />
               <Image
-                src="/spin-logo.png"
+                src="/projects/portrait.jpg"
                 alt={siteConfig.name}
-                width={250}
-                height={250}
-                className="h-40 w-40 object-contain drop-shadow-2xl sm:h-48 sm:w-48 md:h-56 md:w-56 lg:h-64 lg:w-64"
+                fill
+                sizes="(min-width: 1024px) 48vw, (min-width: 640px) 28rem, 90vw"
+                className="rounded-3xl object-cover drop-shadow-2xl"
                 priority
               />
-    </motion.div>
+            </div>
           </motion.div>
         </div>
       </Container>
