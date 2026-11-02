@@ -18,7 +18,7 @@ export function Hero() {
       </div>
 
       <Container className="relative">
-      <div className="flex flex-col-reverse gap-12 lg:flex-row lg:items-center lg:gap-16">
+      <div className="flex flex-col gap-12 lg:flex-row lg:items-center lg:gap-16">
           {/* Left: Text Content */}
           <div className="lg:flex-1">
             {/* Greeting */}
